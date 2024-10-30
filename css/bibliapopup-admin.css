@@ -1,0 +1,67 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: no; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 0px;
+    border: 1px solid #888;
+    width: 300px; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-pop{
+    min-width: 100%;
+}
+
+/* Modal Header */
+.modal-header, .modal-header h2{
+    padding: 2px 16px;
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+/* Modal Body */
+.modal-body {padding: 16px 16px;}
+
+/* Modal Footer */
+.modal-footer{
+    padding: 5px 16px;
+    background-color: #f5f5f5;
+    color: #000;
+    text-align: center;
+}
+
+.btnShort{
+    text-align: right;
+}
+
+.wp-picker-holder{
+    position: absolute;
+}
